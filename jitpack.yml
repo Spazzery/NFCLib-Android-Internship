@@ -1,9 +1,3 @@
 jdk:
   - openjdk17
   
-before_install:
-   - sdk install java 17.0.11-oracle
-   - sdk use java 17.0.11-oracle
-
-install:
-  - ./gradlew assemble
