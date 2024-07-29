@@ -1,4 +1,5 @@
 jdk:
+  - sdk list java
   - openjdk21
 
 before_install:
